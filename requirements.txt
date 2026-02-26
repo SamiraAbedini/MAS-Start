@@ -1,0 +1,16 @@
+# Shared
+python-dotenv
+
+# ── LC.py  (LangGraph) ────────────────────────────────────────────────────────
+langgraph
+langchain-openai
+langchain-core
+
+# ── AG.py  (AutoGen AgentChat) ────────────────────────────────────────────────
+autogen-agentchat
+autogen-ext[openai]
+
+# ── Magentic1.py  (Magentic-One) ──────────────────────────────────────────────
+# autogen-agentchat and autogen-ext[openai] already listed above
+autogen-ext[magentic-one]
+# After install, run:  playwright install --with-deps chromium
